@@ -1,0 +1,48 @@
+body {
+    background-color: darkgrey;
+}
+
+.container {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid rgb(18, 23, 19);
+    padding: 10px 50px 50px 50px;
+
+}
+h1 {
+    background-color: #172a17;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding: 2px 0;
+}
+#question {
+    font-size: 30px;
+    color: rgb(47, 179, 231);
+}
+
+.buttons  {
+    margin-top: 30px;
+}
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: rgb(47, 179, 231);
+    width: 250px;
+    font-size: 20px;
+    color: white;
+    border: 1px solid blue;
+    margin: 10px 40px 10px 0;
+    padding: 10px;
+}
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: lightblue;
+
+    
+}
+#score {
+    font-size: 30px;
+    color: rgb(47, 179, 231);
+    text-align: center;
+}
